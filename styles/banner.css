@@ -1,0 +1,17 @@
+.section-container {
+    /* background-color: var(--section-fundo); */
+    background: url('/img/olho-de-sauron.jpg') no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 12em;
+    text-align: center;
+}
+
+.section-titulo,.section-subtitulo {
+    background-color: #00000063;
+    font-size: 3em;
+    color: var(--cor-branca);
+    text-shadow: 5px 5px 10px #ff0000;
+    text-transform: uppercase;
+    margin: 1em;
+}

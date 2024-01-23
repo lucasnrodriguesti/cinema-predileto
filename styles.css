@@ -1,10 +1,17 @@
 @import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/main.css);
 
 :root {
-    --cor-de-fundo: #FBEFBE;
-    --cabecalho-nav: #402bff;
+    --cor-de-fundo: #10002b;
+    --header-nav: #060038;
+    --section-fundo: #17003b;
+    --cor-branca: #FFFFFF;
+    --cor-link: #ffe600;
+    --fonte-principal: 'Roboto Mono', monospace;
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
 }

@@ -1,3 +1,38 @@
-.header {
-    background-color: var(--cabecalho-nav);
+.header-container {
+    background-color: var(--header-nav);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+}
+
+.container-search {
+    display: flex;
+    align-items: center;
+    gap: 1px; 
+}
+
+#search {
+    padding: 0.5em;
+    border-radius: 20px;
+}
+
+.container-left {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.header__link {
+    color: var(--cor-link);
+    font-size: 1.3em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.header__link:hover {
+    transform: translateY(-8px);
+    color: #c5c200;
 }

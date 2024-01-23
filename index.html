@@ -4,16 +4,60 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meu hobbie</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="header">
-            <ul class="header__list">
-                <li class="header__link"><a href="#">Filmes</a></li>
-                <li class="header__link"><a href="#">Séries</a></li>
-                <li class="header__link"><a href="#">Animes</a></li>
-            </ul>
-        </div>
+        <header class="header-container">
+            <div class="container-left">
+                    <a href="#" class="header__link">Filmes</a>
+                    <a href="#"class="header__link">Séries</a>
+                    <a href="#"class="header__link">Animes</a>
+            </div>
+            <div class="container-search">
+                <input type="search" id="search" placeholder="O Senhor dos Anéis">
+                <button type="submit" id="search">Procurar</button>
+            </div>
+        </header>
+        <section class="section-container">
+            <h2 class="section-titulo">Bem-vindo aos meus filmes, séries e animes prediletos</h2>
+            <p class="section-subtitulo">Divirtam-se!</p>
+        </section>
+        <main class="main-container">
+            <div class="main-item">
+                <img src="img/o-senhor-dos-aneis-as-duas-torres.jpg" alt="O senhor dos aneis: As Duas Torres" class="main-img">
+                <h2 class="main-title">O Senhor dos Anéis</h2>
+                <p class="main-subtitle">O Senhor dos Anéis - As Duas Torres começa com a Sociedade do Anel fragmentada. Frodo e Sam seguem em direção à Montanha da Perdição, enquanto Aragorn, Legolas e Gimli tentam resgatar Merry e Pippin, capturados por Uruk-hai.
+                    <br><br>
+                    Enquanto isso, um renovado Gandalf, agora vestido de branco, ajuda a libertar o rei Théoden dos feitiços de Gríma Língua de Cobra. Entre batalhas épicas, como a do Abismo de Helm, e personagens intrigantes, como Gollum, o filme tece uma narrativa complexa e emocionante.</p>
+            </div>
+            <div class="main-item">
+                <img src="img/collection-harry-potter.jpg" alt="Coleção do filme Harry Potter" class="main-img">
+                <h2 class="main-title">Harry Potter</h2>
+                <p class="main-subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pulvinar ex, dictum eleifend odio. Pellentesque et tristique purus. Maecenas ut massa ac justo aliquam efficitur. Mauris euismod nisl et sapien facilisis, vitae ornare dolor sodales. Etiam efficitur massa et luctus rhoncus. Fusce dapibus nisi sit amet dapibus volutpat. Vestibulum eu sapien nunc. Morbi sed facilisis neque. Suspendisse potenti. Proin porttitor leo tincidunt purus vehicula, vel suscipit erat lacinia. In rutrum nulla nec ornare vestibulum.</p>
+            </div>
+            <div class="main-item">
+                <img src="img/collection-star-wars.jpg" alt="Coleção do filme Star Wars" class="main-img">
+                <h2 class="main-title">Star Wars</h2>
+                <p class="main-subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pulvinar ex, dictum eleifend odio. Pellentesque et tristique purus. Maecenas ut massa ac justo aliquam efficitur. Mauris euismod nisl et sapien facilisis, vitae ornare dolor sodales. Etiam efficitur massa et luctus rhoncus. Fusce dapibus nisi sit amet dapibus volutpat. Vestibulum eu sapien nunc. Morbi sed facilisis neque. Suspendisse potenti. Proin porttitor leo tincidunt purus vehicula, vel suscipit erat lacinia. In rutrum nulla nec ornare vestibulum.</p>
+            </div>
+            <div class="main-item">
+                <img src="img/player-one.jpg" alt="Imagem do Percival com todos os players" class="main-img">
+                <h2 class="main-title">Jogador Nº1</h2>
+                <p class="main-subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pulvinar ex, dictum eleifend odio. Pellentesque et tristique purus. Maecenas ut massa ac justo aliquam efficitur. Mauris euismod nisl et sapien facilisis, vitae ornare dolor sodales. Etiam efficitur massa et luctus rhoncus. Fusce dapibus nisi sit amet dapibus volutpat. Vestibulum eu sapien nunc. Morbi sed facilisis neque. Suspendisse potenti. Proin porttitor leo tincidunt purus vehicula, vel suscipit erat lacinia. In rutrum nulla nec ornare vestibulum.</p>
+            </div>
+            <div class="main-item">
+                <img src="img/avatar-movie.jpg" alt="Avatar" class="main-img">
+                <h2 class="main-title">Avatar</h2>
+                <p class="main-subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pulvinar ex, dictum eleifend odio. Pellentesque et tristique purus. Maecenas ut massa ac justo aliquam efficitur. Mauris euismod nisl et sapien facilisis, vitae ornare dolor sodales. Etiam efficitur massa et luctus rhoncus. Fusce dapibus nisi sit amet dapibus volutpat. Vestibulum eu sapien nunc. Morbi sed facilisis neque. Suspendisse potenti. Proin porttitor leo tincidunt purus vehicula, vel suscipit erat lacinia. In rutrum nulla nec ornare vestibulum.</p>
+            </div>
+        </main>
     </body>
 </html>
